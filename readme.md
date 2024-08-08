@@ -13,3 +13,5 @@
 9) python manage.py createsuperuser (Создаем супепользователя для полного доступа к БД логин:oleg пароль:oleg)
 10) python manage.py migrate (Выполняем миграции БД) в данном случае для админки, аворизации
 11) pip install django-environ (Устанавливаем библиотеку для работы с переменным окружением, файл .env)
+
+ссылка: на git: https://github.com/obeginin/local_product.git
