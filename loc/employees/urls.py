@@ -9,5 +9,5 @@ router.register(r'employees', EmployeeViewSet)
 
 urlpatterns = [
     path('', include(router.urls)),
-    #path('add/', add_Employee, name='add_Employee'),
+    path('add/', add_Employee, name='add_Employee'), # отделная форма
 ]

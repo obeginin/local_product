@@ -10,7 +10,7 @@ class EmployeeViewSet(viewsets.ModelViewSet):
     queryset = Employee.objects.all()
     serializer_class = EmployeeSerializer
 
-
+# отдеьная форма
 def add_Employee(request):
     if request.method == 'POST':
         form = EmployeeForm(request.POST)
